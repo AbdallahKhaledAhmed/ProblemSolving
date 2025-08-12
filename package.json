@@ -1,0 +1,23 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "Solving 100 Beginners Problems from CodeWars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdallahKhaledAhmed/ProblemSolving.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdallahKhaledAhmed/ProblemSolving/issues"
+  },
+  "homepage": "https://github.com/AbdallahKhaledAhmed/ProblemSolving#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
