@@ -1,5 +1,5 @@
 # ProblemSolving
-Solving 100 Beginners Problems from CodeWars
+Solving 100 Beginners Problems from CodeWars Using <strong>TypeScript</strong>
 
 From 
 <a href="https://youtube.com/playlist?list=PL3iticg1TvA-jMsFwDgdb6Cy_L__qL56H&si=BeuGfuv5o6mC0Idu" target="_blank">This Playlist</a>
