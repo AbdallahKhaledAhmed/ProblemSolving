@@ -15,3 +15,11 @@ export function sumArray(array: number[] | null): number {
 }
 
 console.log(sumArray([6, 0, 1, 10, 10]));
+
+/* 
+/////////////// Notes ///////////////
+
+Math.min(...array) => returns the lowest value in the array
+Math.max(...array) => returns the highest value in the array
+array.slice (start, end) => Returns a slice from the array
+*/
