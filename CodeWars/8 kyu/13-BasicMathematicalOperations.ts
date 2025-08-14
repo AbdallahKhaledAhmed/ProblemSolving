@@ -30,3 +30,13 @@ export function basicOp1(
 ): number {
   return eval(`${value1} ${operation} ${value2}`); // Note : using eval function in production is very dangerous
 }
+
+console.log(basicOp("+", 4, 7));
+console.log(basicOp("-", 15, 18));
+console.log(basicOp("*", 5, 5));
+console.log(basicOp("/", 49, 7));
+
+console.log(basicOp1("+", 4, 7));
+console.log(basicOp1("-", 15, 18));
+console.log(basicOp1("*", 5, 5));
+console.log(basicOp1("/", 49, 7));
