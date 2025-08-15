@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad
+// https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad
 // This is My Solution
 
 export function invert(arr: number[]): number[] {

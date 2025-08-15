@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/5513795bd3fafb56c200049e
+// https://www.codewars.com/kata/5513795bd3fafb56c200049e
 // This is My Solution
 
 export function countBy(x: number, n: number) {
