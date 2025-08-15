@@ -7,3 +7,6 @@ export const digitize = (n: number): number[] => {
     .map((elem) => +elem);
   return solution;
 };
+
+
+console.log(digitize(124))

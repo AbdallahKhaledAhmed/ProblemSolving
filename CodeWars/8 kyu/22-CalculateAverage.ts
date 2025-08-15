@@ -6,3 +6,5 @@ export function findAverage(array: number[]): number {
     ? 0
     : array.reduce((total, current) => (total += current), 0) / array.length;
 }
+
+console.log(findAverage([1, 2, 3]));

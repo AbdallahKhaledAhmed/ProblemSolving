@@ -7,7 +7,7 @@ export function sumArray(array: number[] | null): number {
   const len: number = array.length;
   array = array.sort((a, b) => a - b);
 
-  let sum: number = array.reduce((total, current, ind) => {
+  const sum: number = array.reduce((total, current, ind) => {
     return ind === 0 || ind === len - 1 ? total : (total += current);
   }, 0);
 

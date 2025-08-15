@@ -1,8 +1,8 @@
 // https://www.codewars.com/kata/5513795bd3fafb56c200049e
 // This is My Solution
 
-export function countBy(x: number, n: number) {
-  let z = [];
+export function countBy(x: number, n: number): number[] {
+  const z: number[] = [];
   for (let i = 1; i <= n; i++) {
     z.push(i * x);
   }
@@ -10,4 +10,3 @@ export function countBy(x: number, n: number) {
 }
 
 console.log(countBy(2, 5));
- 

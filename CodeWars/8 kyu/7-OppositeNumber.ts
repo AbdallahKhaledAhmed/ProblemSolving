@@ -2,9 +2,9 @@
 // This is My Solution
 
 export class Kata {
-  static opposite(n: number) {
+  static opposite(n: number): number {
     return -n;
   }
 }
 
-console.log(Kata.opposite(14))
+console.log(Kata.opposite(14));

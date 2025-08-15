@@ -3,7 +3,7 @@
 
 export function countPositivesSumNegatives(input: number[] | null): number[] {
   if (input == null || input.length === 0) return [];
-  let [positiveCount, nigativeSum] = [0, 0];
+  let [positiveCount, nigativeSum]: number[] = [0, 0];
   input.forEach((ele) => {
     ele <= 0 ? (nigativeSum += ele) : positiveCount++;
   });

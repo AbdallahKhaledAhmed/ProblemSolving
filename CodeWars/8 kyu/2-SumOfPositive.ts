@@ -2,10 +2,10 @@
 // This is My Solution
 export function positiveSum(arr: number[]): number {
   if (arr.length === 0) return 0;
- 
-  let sum: number = arr.reduce((total, current) => {
+
+  const sum: number = arr.reduce((total, current) => {
     return current > 0 ? (total += current) : total;
-  },0);
+  }, 0);
 
   return sum;
 }
