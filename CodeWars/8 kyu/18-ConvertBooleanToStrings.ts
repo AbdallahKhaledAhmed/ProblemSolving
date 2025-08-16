@@ -2,7 +2,7 @@
 // This is My Solution
 
 export function boolToWord(bool: boolean): string {
-  return bool === true ? "Yes" : "No";
+  return bool ? "Yes" : "No";
 }
 
 console.log(boolToWord(true));

@@ -23,3 +23,5 @@ export function greet(language: string) {
   };
   return messages[language as keyof typeof messages] || "Welcome";
 }
+
+// Note : object.hasOwnProperty (key)  => this function returns boolean value that indicates if the object has this key
