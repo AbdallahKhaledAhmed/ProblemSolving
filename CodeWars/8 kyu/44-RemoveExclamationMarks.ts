@@ -5,4 +5,11 @@ function removeExclamationMarks(s: string): string {
   return s.replace(/!/g, "");
 }
 
+// Other Solution (Also Mine)
+
+function removeExclamationMarks1(s: string): string {
+  return s.split("!").join("");
+}
+
 console.log(removeExclamationMarks("Hello! World!!"));
+console.log(removeExclamationMarks1("Hello! World!!"));
