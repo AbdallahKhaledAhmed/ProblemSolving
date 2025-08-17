@@ -4,3 +4,6 @@
 function formatMoney(amount: number): string {
   return `$${amount.toFixed(2)}`;
 }
+
+console.log(formatMoney(1.5));
+console.log(formatMoney(1.2));
