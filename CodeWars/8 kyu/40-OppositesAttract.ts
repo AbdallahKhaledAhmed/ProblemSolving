@@ -2,5 +2,9 @@
 // This is My Solution
 
 export function lovefunc(flower1: number, flower2: number): boolean {
-    return flower1%2 !== flower2%2
+  return flower1 % 2 !== flower2 % 2;
 }
+
+console.log(lovefunc(1, 2));
+console.log(lovefunc(1, 3));
+console.log(lovefunc(2, 3));
