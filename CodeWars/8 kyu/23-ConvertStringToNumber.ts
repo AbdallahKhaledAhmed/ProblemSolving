@@ -4,3 +4,5 @@
 export function stringToNumber(str: string): number {
   return +str;
 }
+
+console.log(stringToNumber("10"));

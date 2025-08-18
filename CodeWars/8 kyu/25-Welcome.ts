@@ -25,3 +25,6 @@ export function greet(language: string) {
 }
 
 // Note : object.hasOwnProperty (key)  => this function returns boolean value that indicates if the object has this key
+
+console.log(greet("czech"));
+console.log(greet("irish"));
