@@ -12,3 +12,6 @@ export function removeChar(str: string): string {
 export function removeChar1(str: string): string {
   return str.slice(1, -1);
 }
+
+console.log(removeChar("Hello"));
+console.log(removeChar1("Hello"));
