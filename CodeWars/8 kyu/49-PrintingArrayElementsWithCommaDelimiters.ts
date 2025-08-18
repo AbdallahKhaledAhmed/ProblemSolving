@@ -1,12 +1,12 @@
 // https://www.codewars.com/kata/56e2f59fb2ed128081001328
 // This is My Solution
 
-export function printArray(array: number[]): string {
+export function printArray<T>(array: T[]): string {
   return `${array.toString()}`;
 }
 
 // Other Solution
-export function printArray1(array: Number[]): string {
+export function printArray1<T>(array: T[]): string {
   return array.join(",");
 }
 
