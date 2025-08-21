@@ -4,3 +4,5 @@
 export function goals(...goals: number[]): number {
   return goals.reduce((a, b) => a + b);
 }
+
+console.log(goals(5, 4, 1));
