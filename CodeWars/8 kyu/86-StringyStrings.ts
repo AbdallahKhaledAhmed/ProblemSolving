@@ -3,7 +3,7 @@
 
 export const stringy = (n: number): string =>
   Array(n)
-    .fill("1")
+    .fill("0")
     .map((_, ind) => (ind % 2 === 0 ? "1" : "0"))
     .join("");
 
