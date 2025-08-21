@@ -4,3 +4,5 @@
 export const testEven = (n: number): boolean => {
   return !Boolean(n % 2);
 };
+
+console.log(testEven(4));
