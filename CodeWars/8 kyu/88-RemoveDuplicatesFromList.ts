@@ -6,3 +6,5 @@ export const distinct = (a: number[]): number[] => {
 };
 
 console.log(distinct([1, 1, 2]));
+
+// note : you can just use Set :)
