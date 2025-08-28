@@ -7,3 +7,5 @@ export class Kata {
     return [Math.max(...arr), Math.min(...arr)].join(" ");
   }
 }
+
+console.log(Kata.highAndLow("1 2 -3 4 5"));

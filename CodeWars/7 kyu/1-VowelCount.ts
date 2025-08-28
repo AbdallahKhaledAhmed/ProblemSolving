@@ -13,3 +13,7 @@ export class Kata {
     return count;
   }
 }
+
+console.log(
+  Kata.getCount("Hello My Name is Abdallah and Iam a Software Developer !")
+);
