@@ -14,4 +14,16 @@ function findChildren(dancingBrigade: string): string {
   return str.join("");
 }
 
+// other solution (Also Mine)
+
+function findChildren1(dancingBrigade: string): string {
+  let str = dancingBrigade.toLowerCase();
+  return str
+    .split("")
+    .sort()
+    .map((ele, ind, arr) => (ele !== arr[ind - 1] ? ele.toUpperCase() : ele))
+    .join("");
+}
+
 console.log(findChildren("uwwWUueEe"));
+console.log(findChildren1("uwwWUueEe"));
