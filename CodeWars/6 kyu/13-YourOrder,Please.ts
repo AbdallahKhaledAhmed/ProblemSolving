@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/55c45be3b2079eccff00010f
 // This is My Solution
 
-export function order(words: string) {
+export function order(words: string):string {
   return words
     .split(" ")
     .sort((a, b) => {
