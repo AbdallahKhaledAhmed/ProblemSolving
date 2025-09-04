@@ -5,7 +5,6 @@ export function order(words: string): string {
   return words
     .split(" ")
     .sort((a, b) => {
-      console.log(+a.match(/[0-9]/g)![0]);
       return +a.match(/[0-9]/)![0] - +b.match(/[0-9]/)![0];
     })
     .join(" ");
