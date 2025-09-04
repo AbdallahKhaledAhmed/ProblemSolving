@@ -7,3 +7,5 @@ export function findOutlier(integers: number[]): number {
   integers.forEach((ele) => (ele % 2 === 0 ? evens.push(ele) : odds.push(ele)));
   return evens.length === 1 ? evens[0] : odds[0];
 }
+
+console.log(findOutlier([2, 4, 6, 8, 7, 10]));
